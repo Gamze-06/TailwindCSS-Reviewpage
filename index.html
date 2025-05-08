@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tailwind CSS Landing Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="./dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-full bg-gray-200">
+  <!-- Navbar -->
+  <div class="max-w-full mx-auto px-6 bg-white shadow rounded-lg flex items-center justify-between py-3 fixed top-0 left-0 right-0 z-10">
+    <!-- Left side: Links -->
+    <nav class="flex items-center space-x-4 text-sm font-medium">
+      <a href="#" class="text-gray-600 hover:text-purple-600 font-bold underline">Home</a>
+      <a href="#" class="text-gray-600 hover:text-purple-600 font-bold underline">About</a>
+      <a href="#" class="text-gray-600 hover:text-purple-600 font-bold underline">Address</a>
+    </nav>
+
+    <!-- Center: Logo -->
+    <div class="flex items-center text-purple-600 text-xl font-bold">
+      <i class="fa-solid fa-c text-2xl"></i>
+    </div>
+
+    <!-- Right side: Search + Sign Up -->
+    <div class="flex items-center space-x-4">
+      <input type="text" placeholder="Search..." class="px-3 py-1 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-purple-600">
+      <button class="bg-purple-600 text-white px-4 py-2 rounded">Log in</button>
+    </div>
+  </div>
+ 
+  <!-- ALT BANNER: Gri görsel kutusu -->
+  <div class="w-full bg-gray-300 py-32 mt-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h1 class="text-black text-5xl font-bold mb-2">Quisquam necessita <br> vel<span class="text-purple-600"> laborum <br>doloribus</span> delectus</h1>
+      <p class="text-black text-sm mb-6">Cupiditate minima voluptate temporibus quia? <br>Architecto beatae esse ab amet vero eaque explicabo!</p>
+      <div class="flex items-center justify-center space-x-4">
+        <button class="bg-purple-600 text-sm text-white px-4 py-2 rounded">
+          Get started
+        </button>
+        <p class="text-black text-sm cursor-pointer hover:underline">
+          Learn More
+        </p>
+      </div>
+    </div>
+  </div>
+  
+    <section class="py-12 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-10">
+      <h2 class="text-4xl font-bold text-center mb-20">What our customers are saying about us!</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+        
+        <!-- Card 1 -->
+        <div class="bg-gray-200 rounded-lg shadow p-4 flex flex-col justify-between">
+          <div class="mb-4">
+            <p class="text-purple-600 text-xl mb-2">❝</p>
+            <p class="text-sm text-gray-700 mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae asperiores corporis quidem, et accusantium laboriosam rem similique ex mollitia quis possimus, eveniet dolorum tempora.
+            </p>
+          </div>
+          <div class="bg-purple-600 text-white rounded-b-lg p-4 flex flex-col items-center">
+            <i class="fa-regular fa-circle-user"></i>
+            <h3 class="font-bold text-sm">Distinctio Animi</h3>
+            <p class="text-xs uppercase">Aliquam Illum</p>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="bg-gray-200 rounded-lg shadow p-4 flex flex-col justify-between">
+          <div class="mb-4">
+            <p class="text-purple-600 text-xl mb-2">❝</p>
+            <p class="text-sm text-gray-700 mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis deleniti, nemo consectetur ea aperiam, aliquid enim sapiente commodi necessitatibus.
+            </p>
+          </div>
+          <div class="bg-purple-600 text-white rounded-b-lg p-4 flex flex-col items-center">
+            <i class="fa-regular fa-circle-user"></i>
+            <h3 class="font-bold text-sm">Distinctio Animi</h3>
+            <p class="text-xs uppercase">Aliquam Illum</p>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="bg-gray-200 rounded-lg shadow p-4 flex flex-col justify-between">
+          <div class="mb-4">
+            <p class="text-purple-600 text-xl mb-2">❝</p>
+            <p class="text-sm text-gray-700 mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, debitis voluptatum. Modi, repellat nesciunt distinctio eaque dolorem expedita.
+            </p>
+          </div>
+          <div class="bg-purple-600 text-white rounded-b-lg p-4 flex flex-col items-center">
+            <i class="fa-regular fa-circle-user"></i>
+            <h3 class="font-bold text-sm">Distinctio Animi</h3>
+            <p class="text-xs uppercase">Aliquam Illum</p>
+          </div>
+        </div>
+  
+        <!-- Card 4 -->
+        <div class="bg-gray-200 rounded-lg shadow p-4 flex flex-col justify-between">
+          <div class="mb-4">
+            <p class="text-purple-600 text-xl mb-2">❝</p>
+            <p class="text-sm text-gray-700 mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, pariatur laborum fugiat molestiae officia tenetur sequi.
+            </p>
+          </div>
+          <div class="bg-purple-600 text-white rounded-b-lg p-4 flex flex-col items-center">
+            <i class="fa-regular fa-circle-user"></i>
+            <h3 class="font-bold text-sm">Distinctio Animi</h3>
+            <p class="text-xs uppercase">Aliquam Illum</p>
+          </div>
+        </div>
+            <!-- Form kutusu -->
+      </div> <!-- grid div KAPANIYOR burada -->
+
+      <section class="w-full bg-gray-300 py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-6">
+              <!-- Form kutusu -->
+          <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6">Contact us</h2>
+            <form class="space-y-4">
+              <div>
+                <label class="block text-sm mb-1">Name</label>
+                <input type="text" placeholder="Your name"
+                   class="w-full px-4 py-2 bg-gray-200 border-none rounded focus:outline-none focus:ring-focus:ring-purple-600">
+              </div>
+              <div>
+                <label class="block text-sm mb-1">Email</label>
+                <input type="email" placeholder="Your email"
+                  class="w-full px-4 py-2 bg-gray-200 border-none rounded focus:outline-none focus:ring-focus:ring-purple-600">
+              </div>
+              <div>
+                <label class="block text-sm mb-1">Message</label>
+                <textarea placeholder="Message..." rows="3"
+                   class="w-full px-4 py-2 bg-gray-200 border-none rounded focus:outline-none focus:ring-focus:ring-purple-600"></textarea>
+              </div>
+              <button type="submit"
+                class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">Send</button>
+            </form>
+          </div>
+      
+          <!-- Footer linkleri -->
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex space-x-4 mb-4 md:mb-0">
+              <a href="#" class="text-sm text-gray-700 hover:underline">Shop</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">About</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">Blog</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">Pricing</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">Contact</a>
+            </div>
+            <div class="flex space-x-4">
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-pinterest"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-google"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full bg-gray-300 py-12 mt-20">
+        <div class="max-w-7xl mx-auto px-6">
+              <!-- Form kutusu -->
+          <div class="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6">Contact us</h2>
+            <form class="space-y-4">
+              <div>
+                <label class="block text-sm mb-1">Name</label>
+                <input type="text" placeholder="Your name"
+                   class="w-full px-4 py-2 bg-gray-200 border-none rounded focus:outline-none focus:ring-focus:ring-purple-600">
+              </div>
+              <div>
+                <label class="block text-sm mb-1">Email</label>
+                <input type="email" placeholder="Your email"
+                  class="w-full px-4 py-2 bg-gray-200 border-none rounded focus:outline-none focus:ring-focus:ring-purple-600">
+              </div>
+              <div>
+                <label class="block text-sm mb-1">Message</label>
+                <textarea placeholder="Message..." rows="3"
+                   class="w-full px-4 py-2 bg-gray-200 border-none rounded focus:outline-none focus:ring-focus:ring-purple-600"></textarea>
+              </div>
+              <button type="submit"
+                class="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700">Send</button>
+            </form>
+          </div>
+      
+          <!-- Footer linkleri -->
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="flex space-x-4 mb-4 md:mb-0">
+              <a href="#" class="text-sm text-gray-700 hover:underline">Shop</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">About</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">Blog</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">Pricing</a>
+              <a href="#" class="text-sm text-gray-700 hover:underline">Contact</a>
+            </div>
+            <div class="flex space-x-4">
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-pinterest"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="bg-purple-600 text-white p-2 rounded-full"><i class="fab fa-google"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>
